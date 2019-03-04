@@ -7,6 +7,5 @@ def main():
         matrix = edit_distance(list_words[i], list_words[i+1])
         print("Two words being used: " + "[" +  list_words[i]+ "] [" + list_words[i+1] + "]")
         print("Number of operations: " + str(matrix[len(matrix)-1][len(matrix[0])-1]))
-        print()
 
 main()
